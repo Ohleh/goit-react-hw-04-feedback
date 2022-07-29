@@ -9,6 +9,7 @@ const App = () => {
   const [bad, setBad] = useState(0);
 
   const addPoint = e => {
+    //
     switch (e.target.name) {
       case 'good':
         setGood(s => s + 1);
@@ -23,10 +24,6 @@ const App = () => {
         break;
     }
   };
-
-  // const countTotalFeedback = () => {
-  //   good + neutral + bad;
-  // };
 
   const countPositiveFeedbackPercentage = () => {
     const total = good + neutral + bad;
