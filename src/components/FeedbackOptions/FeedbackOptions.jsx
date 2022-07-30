@@ -9,7 +9,6 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => (
           key={index}
           type="button"
           name={massProp}
-          value={massProp}
           onClick={onLeaveFeedback}
         >
           {massProp}
